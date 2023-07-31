@@ -1,0 +1,7341 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 262.38354, g: 325.1084, b: 430.30957, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &172827549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 172827550}
+  - component: {fileID: 172827553}
+  - component: {fileID: 172827552}
+  - component: {fileID: 172827551}
+  m_Layer: 5
+  m_Name: Main
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &172827550
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172827549}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1229764132}
+  - {fileID: 1892057273}
+  - {fileID: 1379838391}
+  - {fileID: 279263681}
+  m_Father: {fileID: 1460393094}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &172827551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172827549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 0
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &172827552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172827549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &172827553
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172827549}
+  m_CullTransparentMesh: 0
+--- !u!1 &279263680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 279263681}
+  - component: {fileID: 279263684}
+  - component: {fileID: 279263683}
+  - component: {fileID: 279263682}
+  - component: {fileID: 279263685}
+  - component: {fileID: 279263686}
+  m_Layer: 5
+  m_Name: btnExit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &279263681
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279263680}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1537794269}
+  m_Father: {fileID: 172827550}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 150, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &279263682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279263680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 279263683}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &279263683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279263680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &279263684
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279263680}
+  m_CullTransparentMesh: 0
+--- !u!114 &279263685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279263680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &279263686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279263680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfebda8d4a147fe42bc9036c8ac11468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+    - {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+    - {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+    - {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+    - {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06, type: 3}
+    - {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+    - {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a, type: 3}
+    - {fileID: 2800000, guid: 0b761e30b2e66d44d96e81fccd3c51be, type: 3}
+    - {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+    - {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    - {fileID: 6800763192487692112, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: isSerializing
+      Entry: 5
+      Data: false
+    - Name: _disable
+      Entry: 5
+      Data: false
+    - Name: isDisabled
+      Entry: 5
+      Data: false
+    - Name: runUniqueInstance
+      Entry: 5
+      Data: true
+    - Name: useGlobalUpdateLoop
+      Entry: 5
+      Data: false
+    - Name: drawNodeGizmos
+      Entry: 5
+      Data: true
+    - Name: showSettings
+      Entry: 5
+      Data: false
+    - Name: showNodeControlledObjects
+      Entry: 5
+      Data: true
+    - Name: showGlobalBlackboards
+      Entry: 5
+      Data: false
+    - Name: editIcon
+      Entry: 10
+      Data: 0
+    - Name: refreshIcon
+      Entry: 10
+      Data: 1
+    - Name: okIcon
+      Entry: 10
+      Data: 2
+    - Name: cancelIcon
+      Entry: 10
+      Data: 3
+    - Name: globalBlackboardIcon
+      Entry: 10
+      Data: 4
+    - Name: localBlackboardIcon
+      Entry: 10
+      Data: 5
+    - Name: nodeControlledScriptIcon
+      Entry: 10
+      Data: 6
+    - Name: settingsIcon
+      Entry: 10
+      Data: 7
+    - Name: editorSkin
+      Entry: 10
+      Data: 8
+    - Name: currentNode
+      Entry: 6
+      Data: 
+    - Name: showInspectorVariables
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 10
+      Data: 9
+    - Name: originalGraph
+      Entry: 6
+      Data: 
+    - Name: overrideSceneVariables
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 0ae80bef-6af5-4e6b-930d-64ea7ca5ca4f
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnExitSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 0c662b80-433f-48d3-b7e9-1405c8d34ee0
+    - Name: $v
+      Entry: 7
+      Data: 3|FlowReactor.FRColor, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnEnterColor
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0.495283
+    - Name: 
+      Entry: 4
+      Data: 0.495283
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: f3f737d0-78aa-462a-ac56-3882c93cd1af
+    - Name: $v
+      Entry: 7
+      Data: 4|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnEnterSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 160
+    - Name: 
+      Entry: 4
+      Data: 70
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parallelStackExecution
+      Entry: 7
+      Data: 5|System.Collections.Generic.Queue`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        System
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currentFrameCount
+      Entry: 3
+      Data: 0
+    - Name: executingCoroutines
+      Entry: 7
+      Data: 6|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.FlowReactorComponent+CoroutineNodes,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 7|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nodeControllables
+      Entry: 7
+      Data: 8|System.Collections.Generic.Dictionary`2[[FlowReactor.Nodes.Node, Assembly-CSharp],[FlowReactor.FlowReactorComponent+NodeControllables,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 9|System.Collections.Generic.ObjectEqualityComparer`1[[FlowReactor.Nodes.Node,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 10|FlowReactor.FlowReactorComponent+NodeControllables, Assembly-CSharp
+    - Name: interfaces
+      Entry: 7
+      Data: 11|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.NodeUtilityModules.INodeControllable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: script
+    - Name: $v
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: exposedNodeVariables
+      Entry: 7
+      Data: 12|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String,
+        mscorlib],[FlowReactor.FRVariable, Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isSerializing: 0
+  runUniqueInstance: 1
+  useGlobalUpdateLoop: 0
+  drawNodeGizmos: 1
+  showSettings: 0
+  showNodeControlledObjects: 1
+  showGlobalBlackboards: 0
+  editIcon: {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+  refreshIcon: {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+  okIcon: {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+  cancelIcon: {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+  globalBlackboardIcon: {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06,
+    type: 3}
+  localBlackboardIcon: {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+  nodeControlledScriptIcon: {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a,
+    type: 3}
+  settingsIcon: {fileID: 2800000, guid: 0b761e30b2e66d44d96e81fccd3c51be, type: 3}
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  currentNode: {fileID: 0}
+  showInspectorVariables: 0
+  graph: {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+  originalGraph: {fileID: 0}
+--- !u!1 &300984651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 300984654}
+  - component: {fileID: 300984653}
+  - component: {fileID: 300984652}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &300984652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300984651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &300984653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300984651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &300984654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300984651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &304235150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 304235151}
+  - component: {fileID: 304235154}
+  - component: {fileID: 304235153}
+  - component: {fileID: 304235152}
+  - component: {fileID: 304235158}
+  - component: {fileID: 304235157}
+  - component: {fileID: 304235156}
+  - component: {fileID: 304235155}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &304235151
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304235150}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1947619086}
+  m_Father: {fileID: 1576541442}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 36}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &304235152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304235150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 304235153}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &304235153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304235150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &304235154
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304235150}
+  m_CullTransparentMesh: 0
+--- !u!114 &304235155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304235150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8d429c4009d2744ba349a2d892e765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventBoard: {fileID: 11400000, guid: 72a3b4519b491de4db06549290569b53, type: 2}
+  eventName: OnClose
+--- !u!114 &304235156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304235150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea4ec36e88d8ee449601bf4583cad89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onNodeInititalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onNodeExecuteEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 304235155}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: OnEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onNodeStopExecuteEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &304235157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304235150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &304235158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304235150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfebda8d4a147fe42bc9036c8ac11468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+    - {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+    - {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+    - {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+    - {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06, type: 3}
+    - {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+    - {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a, type: 3}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+    - {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    - {fileID: 6800763192487692112, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    - {fileID: 304235156}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: isSerializing
+      Entry: 5
+      Data: false
+    - Name: _disable
+      Entry: 5
+      Data: false
+    - Name: isDisabled
+      Entry: 5
+      Data: false
+    - Name: runUniqueInstance
+      Entry: 5
+      Data: true
+    - Name: useGlobalUpdateLoop
+      Entry: 5
+      Data: false
+    - Name: drawNodeGizmos
+      Entry: 5
+      Data: true
+    - Name: showSettings
+      Entry: 5
+      Data: true
+    - Name: showNodeControlledObjects
+      Entry: 5
+      Data: true
+    - Name: showGlobalBlackboards
+      Entry: 5
+      Data: false
+    - Name: editIcon
+      Entry: 10
+      Data: 0
+    - Name: refreshIcon
+      Entry: 10
+      Data: 1
+    - Name: okIcon
+      Entry: 10
+      Data: 2
+    - Name: cancelIcon
+      Entry: 10
+      Data: 3
+    - Name: globalBlackboardIcon
+      Entry: 10
+      Data: 4
+    - Name: localBlackboardIcon
+      Entry: 10
+      Data: 5
+    - Name: nodeControlledScriptIcon
+      Entry: 10
+      Data: 6
+    - Name: settingsIcon
+      Entry: 10
+      Data: 7
+    - Name: editorSkin
+      Entry: 10
+      Data: 8
+    - Name: currentNode
+      Entry: 6
+      Data: 
+    - Name: showInspectorVariables
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 10
+      Data: 9
+    - Name: originalGraph
+      Entry: 6
+      Data: 
+    - Name: overrideSceneVariables
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: f3f737d0-78aa-462a-ac56-3882c93cd1af
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnEnterSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 170
+    - Name: 
+      Entry: 4
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 0ae80bef-6af5-4e6b-930d-64ea7ca5ca4f
+    - Name: $v
+      Entry: 7
+      Data: 3|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnExitSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 160
+    - Name: 
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parallelStackExecution
+      Entry: 7
+      Data: 4|System.Collections.Generic.Queue`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        System
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currentFrameCount
+      Entry: 3
+      Data: 0
+    - Name: executingCoroutines
+      Entry: 7
+      Data: 5|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.FlowReactorComponent+CoroutineNodes,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 6|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nodeControllables
+      Entry: 7
+      Data: 7|System.Collections.Generic.Dictionary`2[[FlowReactor.Nodes.Node, Assembly-CSharp],[FlowReactor.FlowReactorComponent+NodeControllables,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 8|System.Collections.Generic.ObjectEqualityComparer`1[[FlowReactor.Nodes.Node,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 9|FlowReactor.FlowReactorComponent+NodeControllables, Assembly-CSharp
+    - Name: interfaces
+      Entry: 7
+      Data: 10|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.NodeUtilityModules.INodeControllable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 11|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: script
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: exposedNodeVariables
+      Entry: 7
+      Data: 12|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String,
+        mscorlib],[FlowReactor.FRVariable, Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isSerializing: 0
+  runUniqueInstance: 1
+  useGlobalUpdateLoop: 0
+  drawNodeGizmos: 1
+  showSettings: 1
+  showNodeControlledObjects: 1
+  showGlobalBlackboards: 0
+  editIcon: {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+  refreshIcon: {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+  okIcon: {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+  cancelIcon: {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+  globalBlackboardIcon: {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06,
+    type: 3}
+  localBlackboardIcon: {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+  nodeControlledScriptIcon: {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a,
+    type: 3}
+  settingsIcon: {fileID: 0}
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  currentNode: {fileID: 0}
+  showInspectorVariables: 0
+  graph: {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+  originalGraph: {fileID: 0}
+--- !u!1 &312828698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 312828699}
+  - component: {fileID: 312828706}
+  - component: {fileID: 312828705}
+  - component: {fileID: 312828704}
+  - component: {fileID: 312828703}
+  - component: {fileID: 312828702}
+  - component: {fileID: 312828701}
+  - component: {fileID: 312828700}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &312828699
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312828698}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2083185717}
+  m_Father: {fileID: 895662474}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 36}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &312828700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312828698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8d429c4009d2744ba349a2d892e765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventBoard: {fileID: 11400000, guid: 72a3b4519b491de4db06549290569b53, type: 2}
+  eventName: OnClose
+--- !u!114 &312828701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312828698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea4ec36e88d8ee449601bf4583cad89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onNodeInititalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onNodeExecuteEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 312828700}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: OnEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onNodeStopExecuteEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &312828702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312828698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &312828703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312828698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfebda8d4a147fe42bc9036c8ac11468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+    - {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+    - {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+    - {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+    - {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06, type: 3}
+    - {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+    - {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a, type: 3}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+    - {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    - {fileID: 6800763192487692112, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    - {fileID: 312828701}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: isSerializing
+      Entry: 5
+      Data: false
+    - Name: _disable
+      Entry: 5
+      Data: false
+    - Name: isDisabled
+      Entry: 5
+      Data: false
+    - Name: runUniqueInstance
+      Entry: 5
+      Data: true
+    - Name: useGlobalUpdateLoop
+      Entry: 5
+      Data: false
+    - Name: drawNodeGizmos
+      Entry: 5
+      Data: true
+    - Name: showSettings
+      Entry: 5
+      Data: true
+    - Name: showNodeControlledObjects
+      Entry: 5
+      Data: true
+    - Name: showGlobalBlackboards
+      Entry: 5
+      Data: false
+    - Name: editIcon
+      Entry: 10
+      Data: 0
+    - Name: refreshIcon
+      Entry: 10
+      Data: 1
+    - Name: okIcon
+      Entry: 10
+      Data: 2
+    - Name: cancelIcon
+      Entry: 10
+      Data: 3
+    - Name: globalBlackboardIcon
+      Entry: 10
+      Data: 4
+    - Name: localBlackboardIcon
+      Entry: 10
+      Data: 5
+    - Name: nodeControlledScriptIcon
+      Entry: 10
+      Data: 6
+    - Name: settingsIcon
+      Entry: 10
+      Data: 7
+    - Name: editorSkin
+      Entry: 10
+      Data: 8
+    - Name: currentNode
+      Entry: 6
+      Data: 
+    - Name: showInspectorVariables
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 10
+      Data: 9
+    - Name: originalGraph
+      Entry: 6
+      Data: 
+    - Name: overrideSceneVariables
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: f3f737d0-78aa-462a-ac56-3882c93cd1af
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnEnterSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 170
+    - Name: 
+      Entry: 4
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 0ae80bef-6af5-4e6b-930d-64ea7ca5ca4f
+    - Name: $v
+      Entry: 7
+      Data: 3|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnExitSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 160
+    - Name: 
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parallelStackExecution
+      Entry: 7
+      Data: 4|System.Collections.Generic.Queue`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        System
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currentFrameCount
+      Entry: 3
+      Data: 0
+    - Name: executingCoroutines
+      Entry: 7
+      Data: 5|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.FlowReactorComponent+CoroutineNodes,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 6|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nodeControllables
+      Entry: 7
+      Data: 7|System.Collections.Generic.Dictionary`2[[FlowReactor.Nodes.Node, Assembly-CSharp],[FlowReactor.FlowReactorComponent+NodeControllables,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 8|System.Collections.Generic.ObjectEqualityComparer`1[[FlowReactor.Nodes.Node,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 9|FlowReactor.FlowReactorComponent+NodeControllables, Assembly-CSharp
+    - Name: interfaces
+      Entry: 7
+      Data: 10|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.NodeUtilityModules.INodeControllable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 11|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: script
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: exposedNodeVariables
+      Entry: 7
+      Data: 12|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String,
+        mscorlib],[FlowReactor.FRVariable, Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isSerializing: 0
+  runUniqueInstance: 1
+  useGlobalUpdateLoop: 0
+  drawNodeGizmos: 1
+  showSettings: 1
+  showNodeControlledObjects: 1
+  showGlobalBlackboards: 0
+  editIcon: {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+  refreshIcon: {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+  okIcon: {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+  cancelIcon: {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+  globalBlackboardIcon: {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06,
+    type: 3}
+  localBlackboardIcon: {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+  nodeControlledScriptIcon: {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a,
+    type: 3}
+  settingsIcon: {fileID: 0}
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  currentNode: {fileID: 0}
+  showInspectorVariables: 0
+  graph: {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+  originalGraph: {fileID: 0}
+--- !u!114 &312828704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312828698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 312828705}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &312828705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312828698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &312828706
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312828698}
+  m_CullTransparentMesh: 0
+--- !u!1 &752981581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 752981582}
+  - component: {fileID: 752981584}
+  - component: {fileID: 752981583}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &752981582
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752981581}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1379838391}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &752981583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752981581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Credits
+--- !u!222 &752981584
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752981581}
+  m_CullTransparentMesh: 0
+--- !u!1 &834493828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 834493829}
+  - component: {fileID: 834493832}
+  - component: {fileID: 834493831}
+  - component: {fileID: 834493830}
+  - component: {fileID: 834493836}
+  - component: {fileID: 834493835}
+  - component: {fileID: 834493834}
+  - component: {fileID: 834493833}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &834493829
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834493828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1041454920}
+  m_Father: {fileID: 2014424757}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 35}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &834493830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834493828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 834493831}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &834493831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834493828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &834493832
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834493828}
+  m_CullTransparentMesh: 0
+--- !u!114 &834493833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834493828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8d429c4009d2744ba349a2d892e765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventBoard: {fileID: 11400000, guid: 72a3b4519b491de4db06549290569b53, type: 2}
+  eventName: OnClose
+--- !u!114 &834493834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834493828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea4ec36e88d8ee449601bf4583cad89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onNodeInititalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onNodeExecuteEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 834493833}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: OnEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onNodeStopExecuteEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &834493835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834493828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &834493836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834493828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfebda8d4a147fe42bc9036c8ac11468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+    - {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+    - {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+    - {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+    - {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06, type: 3}
+    - {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+    - {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a, type: 3}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+    - {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    - {fileID: 6800763192487692112, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    - {fileID: 834493834}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: isSerializing
+      Entry: 5
+      Data: false
+    - Name: _disable
+      Entry: 5
+      Data: false
+    - Name: isDisabled
+      Entry: 5
+      Data: false
+    - Name: runUniqueInstance
+      Entry: 5
+      Data: true
+    - Name: useGlobalUpdateLoop
+      Entry: 5
+      Data: false
+    - Name: drawNodeGizmos
+      Entry: 5
+      Data: true
+    - Name: showSettings
+      Entry: 5
+      Data: true
+    - Name: showNodeControlledObjects
+      Entry: 5
+      Data: true
+    - Name: showGlobalBlackboards
+      Entry: 5
+      Data: false
+    - Name: editIcon
+      Entry: 10
+      Data: 0
+    - Name: refreshIcon
+      Entry: 10
+      Data: 1
+    - Name: okIcon
+      Entry: 10
+      Data: 2
+    - Name: cancelIcon
+      Entry: 10
+      Data: 3
+    - Name: globalBlackboardIcon
+      Entry: 10
+      Data: 4
+    - Name: localBlackboardIcon
+      Entry: 10
+      Data: 5
+    - Name: nodeControlledScriptIcon
+      Entry: 10
+      Data: 6
+    - Name: settingsIcon
+      Entry: 10
+      Data: 7
+    - Name: editorSkin
+      Entry: 10
+      Data: 8
+    - Name: currentNode
+      Entry: 6
+      Data: 
+    - Name: showInspectorVariables
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 10
+      Data: 9
+    - Name: originalGraph
+      Entry: 6
+      Data: 
+    - Name: overrideSceneVariables
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: f3f737d0-78aa-462a-ac56-3882c93cd1af
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnEnterSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 170
+    - Name: 
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 0ae80bef-6af5-4e6b-930d-64ea7ca5ca4f
+    - Name: $v
+      Entry: 7
+      Data: 3|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnExitSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 160
+    - Name: 
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parallelStackExecution
+      Entry: 7
+      Data: 4|System.Collections.Generic.Queue`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        System
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currentFrameCount
+      Entry: 3
+      Data: 0
+    - Name: executingCoroutines
+      Entry: 7
+      Data: 5|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.FlowReactorComponent+CoroutineNodes,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 6|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nodeControllables
+      Entry: 7
+      Data: 7|System.Collections.Generic.Dictionary`2[[FlowReactor.Nodes.Node, Assembly-CSharp],[FlowReactor.FlowReactorComponent+NodeControllables,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 8|System.Collections.Generic.ObjectEqualityComparer`1[[FlowReactor.Nodes.Node,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 9|FlowReactor.FlowReactorComponent+NodeControllables, Assembly-CSharp
+    - Name: interfaces
+      Entry: 7
+      Data: 10|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.NodeUtilityModules.INodeControllable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 11|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: script
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: exposedNodeVariables
+      Entry: 7
+      Data: 12|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String,
+        mscorlib],[FlowReactor.FRVariable, Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isSerializing: 0
+  runUniqueInstance: 1
+  useGlobalUpdateLoop: 0
+  drawNodeGizmos: 1
+  showSettings: 1
+  showNodeControlledObjects: 1
+  showGlobalBlackboards: 0
+  editIcon: {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+  refreshIcon: {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+  okIcon: {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+  cancelIcon: {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+  globalBlackboardIcon: {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06,
+    type: 3}
+  localBlackboardIcon: {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+  nodeControlledScriptIcon: {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a,
+    type: 3}
+  settingsIcon: {fileID: 0}
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  currentNode: {fileID: 0}
+  showInspectorVariables: 0
+  graph: {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+  originalGraph: {fileID: 0}
+--- !u!1 &893622212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 893622213}
+  - component: {fileID: 893622215}
+  - component: {fileID: 893622214}
+  m_Layer: 5
+  m_Name: 'Text '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &893622213
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893622212}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1576541442}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -20}
+  m_SizeDelta: {x: 0, y: 30}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &893622214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893622212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: OPTIONS
+--- !u!222 &893622215
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893622212}
+  m_CullTransparentMesh: 0
+--- !u!1 &895662473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 895662474}
+  - component: {fileID: 895662476}
+  - component: {fileID: 895662475}
+  m_Layer: 5
+  m_Name: Credits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &895662474
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895662473}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 921360381}
+  - {fileID: 312828699}
+  m_Father: {fileID: 1460393094}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 350, y: 320}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &895662475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895662473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &895662476
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895662473}
+  m_CullTransparentMesh: 0
+--- !u!1 &895743356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 895743357}
+  - component: {fileID: 895743359}
+  - component: {fileID: 895743358}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &895743357
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895743356}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2014424757}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -20}
+  m_SizeDelta: {x: 0, y: 30}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &895743358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895743356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: NEW GAME
+--- !u!222 &895743359
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895743356}
+  m_CullTransparentMesh: 0
+--- !u!1 &921360380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 921360381}
+  - component: {fileID: 921360383}
+  - component: {fileID: 921360382}
+  m_Layer: 5
+  m_Name: 'Text '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &921360381
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921360380}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 895662474}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -20}
+  m_SizeDelta: {x: 0, y: 30}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &921360382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921360380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: CREDITS
+--- !u!222 &921360383
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921360380}
+  m_CullTransparentMesh: 0
+--- !u!1 &1041454919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1041454920}
+  - component: {fileID: 1041454922}
+  - component: {fileID: 1041454921}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1041454920
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041454919}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 834493829}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1041454921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041454919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Close
+--- !u!222 &1041454922
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041454919}
+  m_CullTransparentMesh: 0
+--- !u!1 &1229764131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1229764132}
+  - component: {fileID: 1229764136}
+  - component: {fileID: 1229764135}
+  - component: {fileID: 1229764134}
+  - component: {fileID: 1229764133}
+  - component: {fileID: 1229764139}
+  - component: {fileID: 1229764138}
+  - component: {fileID: 1229764140}
+  - component: {fileID: 1229764137}
+  m_Layer: 5
+  m_Name: btnNewGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1229764132
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229764131}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1293873389}
+  m_Father: {fileID: 172827550}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 150, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1229764133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229764131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &1229764134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229764131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1229764135}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1229764135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229764131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1229764136
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229764131}
+  m_CullTransparentMesh: 0
+--- !u!114 &1229764137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229764131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfebda8d4a147fe42bc9036c8ac11468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+    - {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+    - {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+    - {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+    - {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06, type: 3}
+    - {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+    - {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a, type: 3}
+    - {fileID: 2800000, guid: 0b761e30b2e66d44d96e81fccd3c51be, type: 3}
+    - {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+    - {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    - {fileID: 6800763192487692112, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    - {fileID: 1229764139}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: isSerializing
+      Entry: 5
+      Data: false
+    - Name: _disable
+      Entry: 5
+      Data: false
+    - Name: isDisabled
+      Entry: 5
+      Data: false
+    - Name: runUniqueInstance
+      Entry: 5
+      Data: true
+    - Name: useGlobalUpdateLoop
+      Entry: 5
+      Data: false
+    - Name: drawNodeGizmos
+      Entry: 5
+      Data: true
+    - Name: showSettings
+      Entry: 5
+      Data: false
+    - Name: showNodeControlledObjects
+      Entry: 5
+      Data: true
+    - Name: showGlobalBlackboards
+      Entry: 5
+      Data: false
+    - Name: editIcon
+      Entry: 10
+      Data: 0
+    - Name: refreshIcon
+      Entry: 10
+      Data: 1
+    - Name: okIcon
+      Entry: 10
+      Data: 2
+    - Name: cancelIcon
+      Entry: 10
+      Data: 3
+    - Name: globalBlackboardIcon
+      Entry: 10
+      Data: 4
+    - Name: localBlackboardIcon
+      Entry: 10
+      Data: 5
+    - Name: nodeControlledScriptIcon
+      Entry: 10
+      Data: 6
+    - Name: settingsIcon
+      Entry: 10
+      Data: 7
+    - Name: editorSkin
+      Entry: 10
+      Data: 8
+    - Name: currentNode
+      Entry: 6
+      Data: 
+    - Name: showInspectorVariables
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 10
+      Data: 9
+    - Name: originalGraph
+      Entry: 6
+      Data: 
+    - Name: overrideSceneVariables
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: f3f737d0-78aa-462a-ac56-3882c93cd1af
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnEnterSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 160
+    - Name: 
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 0ae80bef-6af5-4e6b-930d-64ea7ca5ca4f
+    - Name: $v
+      Entry: 7
+      Data: 3|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnExitSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parallelStackExecution
+      Entry: 7
+      Data: 4|System.Collections.Generic.Queue`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        System
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currentFrameCount
+      Entry: 3
+      Data: 0
+    - Name: executingCoroutines
+      Entry: 7
+      Data: 5|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.FlowReactorComponent+CoroutineNodes,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 6|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nodeControllables
+      Entry: 7
+      Data: 7|System.Collections.Generic.Dictionary`2[[FlowReactor.Nodes.Node, Assembly-CSharp],[FlowReactor.FlowReactorComponent+NodeControllables,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 8|System.Collections.Generic.ObjectEqualityComparer`1[[FlowReactor.Nodes.Node,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 9|FlowReactor.FlowReactorComponent+NodeControllables, Assembly-CSharp
+    - Name: interfaces
+      Entry: 7
+      Data: 10|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.NodeUtilityModules.INodeControllable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: script
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: exposedNodeVariables
+      Entry: 7
+      Data: 11|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String,
+        mscorlib],[FlowReactor.FRVariable, Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isSerializing: 0
+  runUniqueInstance: 1
+  useGlobalUpdateLoop: 0
+  drawNodeGizmos: 1
+  showSettings: 0
+  showNodeControlledObjects: 1
+  showGlobalBlackboards: 0
+  editIcon: {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+  refreshIcon: {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+  okIcon: {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+  cancelIcon: {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+  globalBlackboardIcon: {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06,
+    type: 3}
+  localBlackboardIcon: {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+  nodeControlledScriptIcon: {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a,
+    type: 3}
+  settingsIcon: {fileID: 2800000, guid: 0b761e30b2e66d44d96e81fccd3c51be, type: 3}
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  currentNode: {fileID: 0}
+  showInspectorVariables: 0
+  graph: {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+  originalGraph: {fileID: 0}
+--- !u!114 &1229764138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229764131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8d429c4009d2744ba349a2d892e765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventBoard: {fileID: 11400000, guid: 72a3b4519b491de4db06549290569b53, type: 2}
+  eventName: OnOpenNewGame
+--- !u!114 &1229764139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229764131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea4ec36e88d8ee449601bf4583cad89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onNodeInititalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onNodeExecuteEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1229764138}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: OnEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onNodeStopExecuteEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1229764140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229764131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!1 &1293873388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1293873389}
+  - component: {fileID: 1293873391}
+  - component: {fileID: 1293873390}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1293873389
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293873388}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1229764132}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1293873390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293873388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Game
+--- !u!222 &1293873391
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293873388}
+  m_CullTransparentMesh: 0
+--- !u!1 &1348133262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1348133265}
+  - component: {fileID: 1348133264}
+  - component: {fileID: 1348133263}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1348133263
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348133262}
+  m_Enabled: 1
+--- !u!20 &1348133264
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348133262}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1348133265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348133262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1379838390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1379838391}
+  - component: {fileID: 1379838394}
+  - component: {fileID: 1379838393}
+  - component: {fileID: 1379838392}
+  - component: {fileID: 1379838395}
+  - component: {fileID: 1379838398}
+  - component: {fileID: 1379838397}
+  - component: {fileID: 1379838396}
+  m_Layer: 5
+  m_Name: btnCredits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1379838391
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379838390}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 752981582}
+  m_Father: {fileID: 172827550}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 150, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1379838392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379838390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1379838393}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1379838393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379838390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1379838394
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379838390}
+  m_CullTransparentMesh: 0
+--- !u!114 &1379838395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379838390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &1379838396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379838390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfebda8d4a147fe42bc9036c8ac11468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+    - {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+    - {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+    - {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+    - {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06, type: 3}
+    - {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+    - {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a, type: 3}
+    - {fileID: 2800000, guid: 0b761e30b2e66d44d96e81fccd3c51be, type: 3}
+    - {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+    - {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    - {fileID: 6800763192487692112, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    - {fileID: 1379838398}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: isSerializing
+      Entry: 5
+      Data: false
+    - Name: _disable
+      Entry: 5
+      Data: false
+    - Name: isDisabled
+      Entry: 5
+      Data: false
+    - Name: runUniqueInstance
+      Entry: 5
+      Data: true
+    - Name: useGlobalUpdateLoop
+      Entry: 5
+      Data: false
+    - Name: drawNodeGizmos
+      Entry: 5
+      Data: true
+    - Name: showSettings
+      Entry: 5
+      Data: false
+    - Name: showNodeControlledObjects
+      Entry: 5
+      Data: true
+    - Name: showGlobalBlackboards
+      Entry: 5
+      Data: false
+    - Name: editIcon
+      Entry: 10
+      Data: 0
+    - Name: refreshIcon
+      Entry: 10
+      Data: 1
+    - Name: okIcon
+      Entry: 10
+      Data: 2
+    - Name: cancelIcon
+      Entry: 10
+      Data: 3
+    - Name: globalBlackboardIcon
+      Entry: 10
+      Data: 4
+    - Name: localBlackboardIcon
+      Entry: 10
+      Data: 5
+    - Name: nodeControlledScriptIcon
+      Entry: 10
+      Data: 6
+    - Name: settingsIcon
+      Entry: 10
+      Data: 7
+    - Name: editorSkin
+      Entry: 10
+      Data: 8
+    - Name: currentNode
+      Entry: 6
+      Data: 
+    - Name: showInspectorVariables
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 10
+      Data: 9
+    - Name: originalGraph
+      Entry: 6
+      Data: 
+    - Name: overrideSceneVariables
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: f3f737d0-78aa-462a-ac56-3882c93cd1af
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnEnterSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 160
+    - Name: 
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 0ae80bef-6af5-4e6b-930d-64ea7ca5ca4f
+    - Name: $v
+      Entry: 7
+      Data: 3|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnExitSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parallelStackExecution
+      Entry: 7
+      Data: 4|System.Collections.Generic.Queue`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        System
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currentFrameCount
+      Entry: 3
+      Data: 0
+    - Name: executingCoroutines
+      Entry: 7
+      Data: 5|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.FlowReactorComponent+CoroutineNodes,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 6|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nodeControllables
+      Entry: 7
+      Data: 7|System.Collections.Generic.Dictionary`2[[FlowReactor.Nodes.Node, Assembly-CSharp],[FlowReactor.FlowReactorComponent+NodeControllables,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 8|System.Collections.Generic.ObjectEqualityComparer`1[[FlowReactor.Nodes.Node,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 9|FlowReactor.FlowReactorComponent+NodeControllables, Assembly-CSharp
+    - Name: interfaces
+      Entry: 7
+      Data: 10|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.NodeUtilityModules.INodeControllable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: script
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: exposedNodeVariables
+      Entry: 7
+      Data: 11|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String,
+        mscorlib],[FlowReactor.FRVariable, Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isSerializing: 0
+  runUniqueInstance: 1
+  useGlobalUpdateLoop: 0
+  drawNodeGizmos: 1
+  showSettings: 0
+  showNodeControlledObjects: 1
+  showGlobalBlackboards: 0
+  editIcon: {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+  refreshIcon: {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+  okIcon: {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+  cancelIcon: {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+  globalBlackboardIcon: {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06,
+    type: 3}
+  localBlackboardIcon: {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+  nodeControlledScriptIcon: {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a,
+    type: 3}
+  settingsIcon: {fileID: 2800000, guid: 0b761e30b2e66d44d96e81fccd3c51be, type: 3}
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  currentNode: {fileID: 0}
+  showInspectorVariables: 0
+  graph: {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+  originalGraph: {fileID: 0}
+--- !u!114 &1379838397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379838390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8d429c4009d2744ba349a2d892e765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventBoard: {fileID: 11400000, guid: 72a3b4519b491de4db06549290569b53, type: 2}
+  eventName: OnOpenCredits
+--- !u!114 &1379838398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379838390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea4ec36e88d8ee449601bf4583cad89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onNodeInititalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onNodeExecuteEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1379838397}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: OnEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onNodeStopExecuteEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &1460393090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460393094}
+  - component: {fileID: 1460393093}
+  - component: {fileID: 1460393092}
+  - component: {fileID: 1460393091}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1460393091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460393090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1460393092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460393090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1460393093
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460393090}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1460393094
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460393090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 172827550}
+  - {fileID: 2014424757}
+  - {fileID: 1576541442}
+  - {fileID: 895662474}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1531138137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1531138138}
+  - component: {fileID: 1531138140}
+  - component: {fileID: 1531138139}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1531138138
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531138137}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1892057273}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1531138139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531138137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Options
+--- !u!222 &1531138140
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531138137}
+  m_CullTransparentMesh: 0
+--- !u!1 &1537794268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1537794269}
+  - component: {fileID: 1537794271}
+  - component: {fileID: 1537794270}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1537794269
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537794268}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 279263681}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1537794270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537794268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Exit
+--- !u!222 &1537794271
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537794268}
+  m_CullTransparentMesh: 0
+--- !u!1 &1576541441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1576541442}
+  - component: {fileID: 1576541444}
+  - component: {fileID: 1576541443}
+  m_Layer: 5
+  m_Name: Options
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1576541442
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576541441}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 893622213}
+  - {fileID: 304235151}
+  m_Father: {fileID: 1460393094}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 350, y: 320}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1576541443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576541441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1576541444
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576541441}
+  m_CullTransparentMesh: 0
+--- !u!1 &1656427880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1656427882}
+  - component: {fileID: 1656427881}
+  m_Layer: 0
+  m_Name: UIGraph
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1656427881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656427880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfebda8d4a147fe42bc9036c8ac11468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+    - {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+    - {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+    - {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+    - {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06, type: 3}
+    - {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+    - {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a, type: 3}
+    - {fileID: 2800000, guid: 0b761e30b2e66d44d96e81fccd3c51be, type: 3}
+    - {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+    - {fileID: 11400000, guid: 61e61b98d14fe5a4db60f9ff39bf50a8, type: 2}
+    - {fileID: 2014424756}
+    - {fileID: 1576541441}
+    - {fileID: 895662473}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: isSerializing
+      Entry: 5
+      Data: false
+    - Name: _disable
+      Entry: 5
+      Data: false
+    - Name: isDisabled
+      Entry: 5
+      Data: false
+    - Name: runUniqueInstance
+      Entry: 5
+      Data: true
+    - Name: useGlobalUpdateLoop
+      Entry: 5
+      Data: false
+    - Name: drawNodeGizmos
+      Entry: 5
+      Data: true
+    - Name: showSettings
+      Entry: 5
+      Data: true
+    - Name: showNodeControlledObjects
+      Entry: 5
+      Data: false
+    - Name: showGlobalBlackboards
+      Entry: 5
+      Data: false
+    - Name: editIcon
+      Entry: 10
+      Data: 0
+    - Name: refreshIcon
+      Entry: 10
+      Data: 1
+    - Name: okIcon
+      Entry: 10
+      Data: 2
+    - Name: cancelIcon
+      Entry: 10
+      Data: 3
+    - Name: globalBlackboardIcon
+      Entry: 10
+      Data: 4
+    - Name: localBlackboardIcon
+      Entry: 10
+      Data: 5
+    - Name: nodeControlledScriptIcon
+      Entry: 10
+      Data: 6
+    - Name: settingsIcon
+      Entry: 10
+      Data: 7
+    - Name: editorSkin
+      Entry: 10
+      Data: 8
+    - Name: currentNode
+      Entry: 6
+      Data: 
+    - Name: showInspectorVariables
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 10
+      Data: 9
+    - Name: originalGraph
+      Entry: 6
+      Data: 
+    - Name: overrideSceneVariables
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: f90427c6-ad69-4d91-94e7-9f4566ddc52a
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.FRGameObject, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: MyGameObject
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 9d9468ba-4773-4810-b39e-df39c689bac8
+    - Name: $v
+      Entry: 7
+      Data: 3|FlowReactor.FRGameObject, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: Options
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 4aefc3d8-6ca1-4fa9-bcc4-87e7bfcf92ce
+    - Name: $v
+      Entry: 7
+      Data: 4|FlowReactor.FRGameObject, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: Credits
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parallelStackExecution
+      Entry: 7
+      Data: 5|System.Collections.Generic.Queue`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        System
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currentFrameCount
+      Entry: 3
+      Data: 0
+    - Name: executingCoroutines
+      Entry: 7
+      Data: 6|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.FlowReactorComponent+CoroutineNodes,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 7|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nodeControllables
+      Entry: 7
+      Data: 8|System.Collections.Generic.Dictionary`2[[FlowReactor.Nodes.Node, Assembly-CSharp],[FlowReactor.FlowReactorComponent+NodeControllables,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 9|System.Collections.Generic.ObjectEqualityComparer`1[[FlowReactor.Nodes.Node,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: exposedNodeVariables
+      Entry: 7
+      Data: 10|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String,
+        mscorlib],[FlowReactor.FRVariable, Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isSerializing: 0
+  runUniqueInstance: 1
+  useGlobalUpdateLoop: 0
+  drawNodeGizmos: 1
+  showSettings: 1
+  showNodeControlledObjects: 0
+  showGlobalBlackboards: 0
+  editIcon: {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+  refreshIcon: {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+  okIcon: {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+  cancelIcon: {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+  globalBlackboardIcon: {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06,
+    type: 3}
+  localBlackboardIcon: {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+  nodeControlledScriptIcon: {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a,
+    type: 3}
+  settingsIcon: {fileID: 2800000, guid: 0b761e30b2e66d44d96e81fccd3c51be, type: 3}
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  currentNode: {fileID: 0}
+  showInspectorVariables: 0
+  graph: {fileID: 11400000, guid: 61e61b98d14fe5a4db60f9ff39bf50a8, type: 2}
+  originalGraph: {fileID: 0}
+--- !u!4 &1656427882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656427880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1892057272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1892057273}
+  - component: {fileID: 1892057276}
+  - component: {fileID: 1892057275}
+  - component: {fileID: 1892057274}
+  - component: {fileID: 1892057277}
+  - component: {fileID: 1892057280}
+  - component: {fileID: 1892057279}
+  - component: {fileID: 1892057278}
+  m_Layer: 5
+  m_Name: btnOptions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1892057273
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892057272}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1531138138}
+  m_Father: {fileID: 172827550}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 150, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1892057274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892057272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1892057275}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1892057275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892057272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1892057276
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892057272}
+  m_CullTransparentMesh: 0
+--- !u!114 &1892057277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892057272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &1892057278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892057272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfebda8d4a147fe42bc9036c8ac11468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+    - {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+    - {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+    - {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+    - {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06, type: 3}
+    - {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+    - {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a, type: 3}
+    - {fileID: 2800000, guid: 0b761e30b2e66d44d96e81fccd3c51be, type: 3}
+    - {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+    - {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    - {fileID: 6800763192487692112, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+    - {fileID: 1892057280}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: isSerializing
+      Entry: 5
+      Data: false
+    - Name: _disable
+      Entry: 5
+      Data: false
+    - Name: isDisabled
+      Entry: 5
+      Data: false
+    - Name: runUniqueInstance
+      Entry: 5
+      Data: true
+    - Name: useGlobalUpdateLoop
+      Entry: 5
+      Data: false
+    - Name: drawNodeGizmos
+      Entry: 5
+      Data: true
+    - Name: showSettings
+      Entry: 5
+      Data: false
+    - Name: showNodeControlledObjects
+      Entry: 5
+      Data: true
+    - Name: showGlobalBlackboards
+      Entry: 5
+      Data: false
+    - Name: editIcon
+      Entry: 10
+      Data: 0
+    - Name: refreshIcon
+      Entry: 10
+      Data: 1
+    - Name: okIcon
+      Entry: 10
+      Data: 2
+    - Name: cancelIcon
+      Entry: 10
+      Data: 3
+    - Name: globalBlackboardIcon
+      Entry: 10
+      Data: 4
+    - Name: localBlackboardIcon
+      Entry: 10
+      Data: 5
+    - Name: nodeControlledScriptIcon
+      Entry: 10
+      Data: 6
+    - Name: settingsIcon
+      Entry: 10
+      Data: 7
+    - Name: editorSkin
+      Entry: 10
+      Data: 8
+    - Name: currentNode
+      Entry: 6
+      Data: 
+    - Name: showInspectorVariables
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 10
+      Data: 9
+    - Name: originalGraph
+      Entry: 6
+      Data: 
+    - Name: overrideSceneVariables
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: f3f737d0-78aa-462a-ac56-3882c93cd1af
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnEnterSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 160
+    - Name: 
+      Entry: 4
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 0ae80bef-6af5-4e6b-930d-64ea7ca5ca4f
+    - Name: $v
+      Entry: 7
+      Data: 3|FlowReactor.FRVector2, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: guidSerialized
+      Entry: 7
+      Data: FlowReactor.SerializableGuid, Assembly-CSharp
+    - Name: guid
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: graph
+      Entry: 6
+      Data: 
+    - Name: exposedToComponent
+      Entry: 5
+      Data: false
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: blackboardVariableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: true
+    - Name: _name
+      Entry: 1
+      Data: OnExitSize
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: variableFieldRect
+      Entry: 7
+      Data: UnityEngine.Rect, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: OnConnected
+      Entry: 6
+      Data: 
+    - Name: OnDisconnected
+      Entry: 6
+      Data: 
+    - Name: connectedNodesData
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _value
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 150
+    - Name: 
+      Entry: 4
+      Data: 40
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parallelStackExecution
+      Entry: 7
+      Data: 4|System.Collections.Generic.Queue`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        System
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: currentFrameCount
+      Entry: 3
+      Data: 0
+    - Name: executingCoroutines
+      Entry: 7
+      Data: 5|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.FlowReactorComponent+CoroutineNodes,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 6|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nodeControllables
+      Entry: 7
+      Data: 7|System.Collections.Generic.Dictionary`2[[FlowReactor.Nodes.Node, Assembly-CSharp],[FlowReactor.FlowReactorComponent+NodeControllables,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 8|System.Collections.Generic.ObjectEqualityComparer`1[[FlowReactor.Nodes.Node,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 9|FlowReactor.FlowReactorComponent+NodeControllables, Assembly-CSharp
+    - Name: interfaces
+      Entry: 7
+      Data: 10|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.NodeUtilityModules.INodeControllable,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: script
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: exposedNodeVariables
+      Entry: 7
+      Data: 11|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[System.String,
+        mscorlib],[FlowReactor.FRVariable, Assembly-CSharp]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isSerializing: 0
+  runUniqueInstance: 1
+  useGlobalUpdateLoop: 0
+  drawNodeGizmos: 1
+  showSettings: 0
+  showNodeControlledObjects: 1
+  showGlobalBlackboards: 0
+  editIcon: {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+  refreshIcon: {fileID: 2800000, guid: 9cb3958a88d763743a2c4045813cc40e, type: 3}
+  okIcon: {fileID: 2800000, guid: 7594f887903434640a933cb5e9cf9774, type: 3}
+  cancelIcon: {fileID: 2800000, guid: 5bccd072b064bb74fb1a5c03bf04932a, type: 3}
+  globalBlackboardIcon: {fileID: 2800000, guid: 3a08d2eab3513da458e6f9d815673f06,
+    type: 3}
+  localBlackboardIcon: {fileID: 2800000, guid: ac20fa01f10b52d44af82db42e016623, type: 3}
+  nodeControlledScriptIcon: {fileID: 2800000, guid: 27efd0de019ab8745a3809c8c554107a,
+    type: 3}
+  settingsIcon: {fileID: 2800000, guid: 0b761e30b2e66d44d96e81fccd3c51be, type: 3}
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  currentNode: {fileID: 0}
+  showInspectorVariables: 0
+  graph: {fileID: 11400000, guid: 4d6d2ae14b098fb4da69b4a83889e9a2, type: 2}
+  originalGraph: {fileID: 0}
+--- !u!114 &1892057279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892057272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8d429c4009d2744ba349a2d892e765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventBoard: {fileID: 11400000, guid: 72a3b4519b491de4db06549290569b53, type: 2}
+  eventName: OnOpenOptions
+--- !u!114 &1892057280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892057272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea4ec36e88d8ee449601bf4583cad89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onNodeInititalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onNodeExecuteEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1892057279}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: OnEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onNodeStopExecuteEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &1923102289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1923102291}
+  - component: {fileID: 1923102290}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1923102290
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923102289}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1923102291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923102289}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1947619085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1947619086}
+  - component: {fileID: 1947619088}
+  - component: {fileID: 1947619087}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1947619086
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947619085}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 304235151}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1947619087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947619085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Accept
+--- !u!222 &1947619088
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947619085}
+  m_CullTransparentMesh: 0
+--- !u!1 &2014424756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2014424757}
+  - component: {fileID: 2014424759}
+  - component: {fileID: 2014424758}
+  m_Layer: 5
+  m_Name: NewGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2014424757
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014424756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 895743357}
+  - {fileID: 834493829}
+  m_Father: {fileID: 1460393094}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 350, y: 320}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2014424758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014424756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2014424759
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014424756}
+  m_CullTransparentMesh: 0
+--- !u!1 &2083185716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2083185717}
+  - component: {fileID: 2083185719}
+  - component: {fileID: 2083185718}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2083185717
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083185716}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 312828699}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2083185718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083185716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: OK
+--- !u!222 &2083185719
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083185716}
+  m_CullTransparentMesh: 0
