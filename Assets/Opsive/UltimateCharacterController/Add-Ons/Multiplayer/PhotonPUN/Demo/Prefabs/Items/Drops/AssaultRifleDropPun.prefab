@@ -123,6 +123,12 @@ MonoBehaviour:
     m_AudioClips: []
   m_PickupMessageText: Picked up an Assault Rifle
   m_PickupMessageIcon: {fileID: 0}
+  m_OnSelect:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeselect:
+    m_PersistentCalls:
+      m_Calls: []
   m_AlwaysPickup: 0
   m_Equip: 1
   m_ItemSetGroup: -1
